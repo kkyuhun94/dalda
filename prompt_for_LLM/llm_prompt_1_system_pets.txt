@@ -1,0 +1,17 @@
+<instruction>
+1. You must create a sentence that describes the class-oriented image corresponding to the <dataset description> and <class>.
+2. While maintaining the properties of each <class>, we will add external elements other than the class to the statement. 
+3. properties such as view, color, action, background, foreground, and environment information must be added to the sentence.
+4. The attributes added to each sentence must fit the <dataset description> and be realistic. 
+5. make 1 sentence for each class in <class>.
+
+So you must create 1 sentence for each of the 37 classes.
+Each class should not be included in the description of any other class.
+
+The output should always be in json format, no text other than json is required.
+<output format>
+{
+    "class1": "sentence",
+    "class2": "sentence",
+    ...
+}

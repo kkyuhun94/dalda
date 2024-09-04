@@ -1,0 +1,20 @@
+einops
+diffusers==0.21.4
+transformers==4.30.2
+pycocotools
+pandas==1.5.2
+scipy
+tqdm
+python-dotenv
+openai
+lpips
+ftfy
+seaborn==0.13.2
+matplotlib==3.8.4
+
+torch==1.13.1
+torchvision==0.14.1
+# for IP-Adapter
+git+https://github.com/tencent-ailab/IP-Adapter.git
+git+https://github.com/openai/CLIP.git
+ 
