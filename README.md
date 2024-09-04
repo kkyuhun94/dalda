@@ -1,4 +1,4 @@
-# DALDA : Diffusion model Adapting LLM prompts for Data Augmentation
+# DALDA: Data Augmentation Leveraging Diffusion Models and LLMs with Adaptive Guidance Scaling
 
 DALDA is an effective data augmentation framework leveraging the Large Language Model (LLM) and Diffusion Model (DM) to tackle challenges inherent in data-scarce scenarios. By embedding novel semantic information into text prompts via LLM and using real images as visual prompts, DALDA generates semantically rich images while addressing the risk of generating samples outside the target distribution.
 
