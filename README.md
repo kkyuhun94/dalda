@@ -103,3 +103,14 @@ resume = [0, 8, 90, 5]
 ## Acknowledgements
 
 This repository is developed with reference to the code from [DA-Fusion](https://github.com/brandontrabucco/da-fusion), and integrates code from [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter), [diffusers](https://github.com/huggingface/diffusers), and [CLIP](https://github.com/openai/CLIP). Using this code requires compliance with their respective licenses.
+
+## Citation
+
+```tex
+@article{jung2024dalda,
+  title={DALDA: Data Augmentation Leveraging Diffusion Model and LLM with Adaptive Guidance Scaling},
+  author={Jung, Kyuheon and Seo, Yongdeuk and Cho, Seongwoo and Kim, Jaeyoung and Min, Hyun-seok and Choi, Sungchul},
+  journal={arXiv preprint arXiv:2409.16949},
+  year={2024}
+}
+```
