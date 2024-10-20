@@ -1,5 +1,9 @@
 # DALDA: Data Augmentation Leveraging Diffusion Model and LLM with Adaptive Guidance Scaling
 
+> **Authors**: Kyuheon Jung, Yongdeuk Seo, Seongwoo Cho, Jaeyoung Kim, Hyun-seok Min, Sungchul Choi
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2409.16949-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2409.16949)
+
 DALDA is an effective data augmentation framework leveraging the Large Language Model (LLM) and Diffusion Model (DM) to tackle challenges inherent in data-scarce scenarios. By embedding novel semantic information into text prompts via LLM and using real images as visual prompts, DALDA generates semantically rich images while addressing the risk of generating samples outside the target distribution.
 
 <div align="center">
