@@ -91,6 +91,7 @@ if __name__ == "__main__":
     system_prompt = read_text(system_prompt_path)
 
     for i in range(NUM_PROMPTS):
+	MAX_RETRIES = 10
         start_time = time.time()
         print(f"Trial {i} started.")
 
