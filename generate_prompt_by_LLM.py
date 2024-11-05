@@ -29,7 +29,6 @@ SYSTEM_PROMPT_FILE_NAME = f"llm_prompt_1_system_{DATASET}.txt"
 PROMPT_JSON_NAME = "llm_prompt_{DATASET}_{trial}.json"
 
 NUM_PROMPTS = 10
-MAX_RETRIES = 10
 
 ##############################################################
 
@@ -91,6 +90,7 @@ if __name__ == "__main__":
     system_prompt = read_text(system_prompt_path)
 
     for i in range(NUM_PROMPTS):
+	MAX_RETRIES = 10
         start_time = time.time()
         print(f"Trial {i} started.")
 
