@@ -29,7 +29,6 @@ SYSTEM_PROMPT_FILE_NAME = f"llm_prompt_1_system_{DATASET}.txt"
 PROMPT_JSON_NAME = "llm_prompt_{DATASET}_{trial}.json"
 
 NUM_PROMPTS = 10
-MAX_RETRIES = 10
 
 ##############################################################
 
